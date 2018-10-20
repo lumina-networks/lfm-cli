@@ -1,0 +1,14 @@
+*pyc
+*.swp
+*egg-info
+*gz
+build/
+*.egg
+*.egg-info/
+.tox/
+.cache
+.coverage
+docs/_build/
+.idea
+.venv
+.DS_Store
