@@ -1,4 +1,4 @@
-Brocade Flow Manager Client library
+Lumina Flow Manager Client library
 ===================================
 
 Usage
