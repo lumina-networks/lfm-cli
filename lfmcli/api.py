@@ -123,8 +123,8 @@ class Client():
             r['status_code'] = resp.status_code
             r['content'] = resp.content
 
-            if (resp.status_code == 200) or (resp.status_code == 201):
-                r = self.get_path(path['name'])
+            # if (resp.status_code == 200) or (resp.status_code == 201):
+            #     r = self.get_path(path['name'])
 
         return r
 
@@ -251,8 +251,8 @@ class Client():
             r['status_code'] = resp.status_code
             r['content'] = resp.content
 
-            if (resp.status_code == 200) or (resp.status_code == 201):
-                r = self.get_treepath(treepath['name'])
+            # if (resp.status_code == 200) or (resp.status_code == 201):
+            #     r = self.get_treepath(treepath['name'])
 
         return r
 
@@ -364,8 +364,8 @@ class Client():
             r['status_code'] = resp.status_code
             r['content'] = resp.content
 
-            if (resp.status_code == 200) or (resp.status_code == 201):
-                r = self.get_treepath_leaf(name, node)
+            # if (resp.status_code == 200) or (resp.status_code == 201):
+            #     r = self.get_treepath_leaf(name, node)
 
         return r
 
@@ -509,8 +509,8 @@ class Client():
             r['status_code'] = resp.status_code
             r['content'] = resp.content
 
-            if (resp.status_code == 200) or (resp.status_code == 201):
-                r = self.get_eline(eline['name'])
+            # if (resp.status_code == 200) or (resp.status_code == 201):
+            #     r = self.get_eline(eline['name'])
 
         return r
 
@@ -652,8 +652,8 @@ class Client():
             r['status_code'] = resp.status_code
             r['content'] = resp.content
 
-            if (resp.status_code == 200) or (resp.status_code == 201):
-                r = self.get_tap(eline, endpoint, tap['path-name'])
+            # if (resp.status_code == 200) or (resp.status_code == 201):
+            #     r = self.get_tap(eline, endpoint, tap['path-name'])
 
         return r
 
@@ -820,8 +820,8 @@ class Client():
             r['status_code'] = resp.status_code
             r['content'] = resp.content
 
-            if (resp.status_code == 200) or (resp.status_code == 201):
-                r = self.get_etree(etree['name'])
+            # if (resp.status_code == 200) or (resp.status_code == 201):
+            #     r = self.get_etree(etree['name'])
 
         return r
 
@@ -931,8 +931,8 @@ class Client():
             r['status_code'] = resp.status_code
             r['content'] = resp.content
 
-            if (resp.status_code == 200) or (resp.status_code == 201):
-                r = self.get_etree_leaf(etree_name, leaf['node'])
+            # if (resp.status_code == 200) or (resp.status_code == 201):
+            #     r = self.get_etree_leaf(etree_name, leaf['node'])
 
         return r
 
